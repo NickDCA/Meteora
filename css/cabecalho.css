@@ -1,0 +1,72 @@
+.cabecalho__container {
+  display: flex;
+  background-color: var(--preto);
+  padding: 20px 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* MENU HAMBURGUER */
+
+.menu__botao {
+  display: none;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  background-color: transparent;
+  background-image: url('../assets/nav/abrir.svg');
+  background-repeat: no-repeat;
+  /* background-size: 80% 80%; */
+  background-position: center;
+}
+
+/* nav {
+  display: none;
+} */
+
+nav .menu-active {
+  display: block;
+}
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+  padding: 0.3rem 1rem;
+}
+
+li:hover {
+  background: #0003;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__botao {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  ul {
+    flex-direction: column;
+    border: solid 2px black;
+  }
+}
