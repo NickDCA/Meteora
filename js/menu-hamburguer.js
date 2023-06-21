@@ -5,11 +5,14 @@ const imgMenuFechar = 'url(../assets/nav/fechar.svg)';
 
 menuBotao.addEventListener('click', () => {
   const menuNav = document.querySelector('.menu__nav');
-  console.log(menuNav.classList);
-  menuNav.classList.contains('menu-active')
-    ? (menuBotao.style.backgroundImage = imgMenuAbrir)
-    : (menuBotao.style.backgroundImage = imgMenuFechar);
+
+  if (menuNav.classList.contains('menu-active')) {
+    menuBotao.style.backgroundImage = imgMenuAbrir;
+    menuNav.style.display = 'none';
+  } else {
+    menuBotao.style.backgroundImage = imgMenuFechar;
+    menuNav.style.display = 'block';
+  }
 
   menuNav.classList.toggle('menu-active');
-  console.log(menuNav.classList);
 });

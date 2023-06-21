@@ -3,7 +3,7 @@
 :root {
   /* PALETA PRIMÁRIA */
   --preto: #000000;
-  --branco: #cccccc;
+  --cinza: #cccccc;
   --amarelo: #daff01;
   --roxo: #9353ff;
 
@@ -17,4 +17,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
+
+  height: 100vh;
 }
