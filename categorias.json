@@ -1,0 +1,38 @@
+[
+  {
+    "categoria": "camisetas",
+    "mobile": "assets/Mobile/Categorias/Categoria camiseta.png",
+    "tablet": "assets/Tablet/Categorias/Categoria camiseta.png",
+    "desktop": "assets/Desktop/Categorias/Categoria camiseta.png"
+  },
+  {
+    "categoria": "bolsas",
+    "mobile": "assets/Mobile/Categorias/Categoria bolsas.png",
+    "tablet": "assets/Tablet/Categorias/Categoria bolsas.png",
+    "desktop": "assets/Desktop/Categorias/Categoria bolsas.png"
+  },
+  {
+    "categoria": "calçados",
+    "mobile": "assets/Mobile/Categorias/Categoria calçados.png",
+    "tablet": "assets/Tablet/Categorias/Categoria calçados.png",
+    "desktop": "assets/Desktop/Categorias/Categoria calçados.png"
+  },
+  {
+    "categoria": "calças",
+    "mobile": "assets/Mobile/Categorias/Categoria calças.png",
+    "tablet": "assets/Tablet/Categorias/Categoria calças.png",
+    "desktop": "assets/Desktop/Categorias/Categoria calças.png"
+  },
+  {
+    "categoria": "casacos",
+    "mobile": "assets/Mobile/Categorias/Categoria Casacos.png",
+    "tablet": "assets/Tablet/Categorias/Categoria casacos.png",
+    "desktop": "assets/Desktop/Categorias/Categoria casacos.png"
+  },
+  {
+    "categoria": "óculos",
+    "mobile": "assets/Mobile/Categorias/Categoria óculos.png",
+    "tablet": "assets/Tablet/Categorias/Categoria óculos.png",
+    "desktop": "assets/Desktop/Categorias/Categoria óculos.png"
+  }
+]
