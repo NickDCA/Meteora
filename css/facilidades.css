@@ -1,0 +1,47 @@
+.facilidades {
+  background-color: var(--preto);
+  color: white;
+  padding: 32px 24px;
+}
+
+.facilidades__introducao {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.facilidades__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.facilidades__item {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.facilidades__imagem {
+  width: 56px;
+  height: 56px;
+}
+
+.facilidades__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.facilidades__titulo {
+  text-transform: uppercase;
+  color: var(--amarelo);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.facilidades__descricao {
+  font-size: 13px;
+}

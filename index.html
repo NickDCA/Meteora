@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/cabecalho.css" />
     <link rel="stylesheet" href="./css/categorias.css" />
+    <link rel="stylesheet" href="./css/facilidades.css" />
     <link
       rel="shortcut icon"
       href="./assets/Favicon-64px.png"
@@ -54,11 +55,19 @@
       <section class="categorias">
         <h2 class="categorias__titulo">Busque por categoria:</h2>
         <ul class="categorias__container">
-          <li class="categoria__item">
+          <!-- <li class="categoria__item">
             <img
-              src="assets/Mobile/Categorias/Categoria bolsas.png"
-              alt=""
               class="categoria__item__imagem"
+              srcset="
+                assets/Mobile/Categorias/Categoria-camiseta.png   768w,
+                assets/Tablet/Categorias/Categoria-camiseta.png  1440w,
+                assets/Desktop/Categorias/Categoria-camiseta.png
+              "
+              sizes="(max-width: 768px)768px,
+                 (max-width: 1440px) 1440px,
+                  100vw"
+              src="assets/Mobile/Categorias/Categoria camiseta.png"
+              alt="Imagem teste1"
             />
             <p class="categoria__item__titulo">Bolsas</p>
           </li>
@@ -101,10 +110,59 @@
               class="categoria__item__imagem"
             />
             <p class="categoria__item__titulo">Bolsas</p>
+          </li> -->
+        </ul>
+      </section>
+
+      <!-- FACILIDADES -->
+      <section class="facilidades">
+        <h2 class="facilidades__introducao">
+          Conheça todas as nossas facilidades
+        </h2>
+        <ul class="facilidades__container">
+          <li class="facilidades__item">
+            <img
+              src="assets/facilidades/pix.svg"
+              alt="Desenho do ícone do PIX, um diamante cortado em quatro"
+              class="facilidades__imagem"
+            />
+            <div class="facilidades__texto">
+              <h3 class="facilidades__titulo">pague pelo pix</h3>
+              <p class="facilidades__descricao">
+                Ganhe 5% OFF em pagamentos via PIX
+              </p>
+            </div>
+          </li>
+          <li class="facilidades__item">
+            <img
+              src="assets/facilidades/troca-gratis.svg"
+              alt="Desenho de duas setas se encontrando em círculo"
+              class="facilidades__imagem"
+            />
+            <div class="facilidades__texto">
+              <h3 class="facilidades__titulo">troca grátis</h3>
+              <p class="facilidades__descricao">
+                Fique livre para trocar em até 30 dias.
+              </p>
+            </div>
+          </li>
+          <li class="facilidades__item">
+            <img
+              src="assets/facilidades/sustentabilidade.svg"
+              alt="Desenho de uma flor"
+              class="facilidades__imagem"
+            />
+            <div class="facilidades__texto">
+              <h3 class="facilidades__titulo">sustentabilidade</h3>
+              <p class="facilidades__descricao">
+                Moda responsável, que respeita o meio ambiente.
+              </p>
+            </div>
           </li>
         </ul>
       </section>
     </main>
     <script src="./js/menu-hamburguer.js"></script>
+    <script src="./js/busque-categorias.js"></script>
   </body>
 </html>
