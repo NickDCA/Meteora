@@ -49,9 +49,10 @@
 
 .facilidades__descricao {
   font-size: 13px;
+  line-height: 20px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1439px) {
   .facilidades__container {
     flex-direction: row;
   }

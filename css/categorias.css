@@ -40,13 +40,13 @@
   text-transform: capitalize;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 765px) {
   .categoria__item {
     --quantidade-itens-categorias: 3;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1439px) {
   .categoria__item {
     --quantidade-itens-categorias: 6;
   }
