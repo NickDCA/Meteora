@@ -44,6 +44,14 @@
   margin-bottom: 16px; */
 }
 
+/* MODAL */
+.modal-news__header {
+  display: flex;
+  background-color: var(--preto);
+  font-size: 20px;
+  font-weight: 500;
+}
+
 @media screen and (min-width: 765px) {
   .newsletter__texto {
     font-size: 20px;
